@@ -1,0 +1,265 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.nav-item {
+    padding: 0 32px 0 32px;
+}
+
+.nav-login {
+    text-decoration: none;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border-radius: 10px;
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: .5s;
+}
+
+.nav-item a{
+    transition: .5s;
+}
+
+.nav-hover:hover {
+    transform: scale(1.2, 1.2);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.active{
+    color: #00eeff !important;
+}
+
+.nb{
+    color: #00eeff;
+}
+
+.banner-image {
+    background-image: url(img/header_waifu2x_art_noise3_scale.png);
+    background-size: cover;
+    padding-bottom: 900px;
+
+}
+
+.home-title {
+    margin-top: 7em;
+    font-size: 6em;
+    margin-bottom: 40px;
+    text-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+}
+
+.home-title span {
+    color: #730096;
+    font-weight: 700;
+}
+
+.home-button {
+    padding: 20px 40px 20px 40px;
+    font-size: larger;
+    border-radius: 10px;
+    text-decoration: none;
+    color: hsl(288, 100%, 11%);
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid hsl(288, 100%, 30%);
+    box-shadow: 0 25px 45px rgba(133, 133, 133, 0.3);
+}
+
+.home-button:hover {
+    transition: .4s;
+    border: none;
+    background: linear-gradient(101deg,
+            hsl(288, 100%, 30%),
+            hsl(293, 100%, 44%));
+    color: #fff;
+}
+
+.home-card {
+    background-color: #233c63;
+    padding-left: 100px;
+}
+
+.container-home {
+    display: flex;
+    text-align: center;
+}
+
+.card {
+    margin: -100px 20px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(25px);
+    color: #fff;
+}
+
+.card-body i {
+    background-color: rgba(49, 0, 82, 0.575);
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.card-subtitle {
+    color: #d754ff !important;
+}
+
+.bg-experience {
+    background-color: #233c63;
+    height: 950px;
+}
+
+.experience-container {
+    padding: 9rem 0 3rem 0;
+}
+
+.col-5 img {
+    margin-bottom: -200px !important;
+}
+
+.experience-info {
+    color: #fff;
+    text-transform: capitalize;
+    height: 300px;
+}
+
+.experience-col-row {
+    padding-left: 75px !important;
+}
+
+.row-experience {
+    width: 500px;
+}
+
+.experience-col {
+    margin: 20px 10px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.experience-col i {
+    transition: .6s;
+    cursor: pointer;
+}
+
+.experience-col:hover i {
+    color: #fff;
+    transform: scale(1.2, 1.2);
+}
+
+.section-contact {
+    background: url(img/bg1.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.contact-gradient {
+    background: linear-gradient(180deg,
+            #233c63,
+            rgba(255, 255, 255, 0.2));
+}
+
+.contact-container {
+    padding: 50px 0 100px 0;
+}
+
+.container-col-contact {
+    padding: 50px 0 100px 0;
+}
+
+.container-col-contact h3 {
+    color: #00eeff;
+    text-align: left;
+    font-size: 19px;
+}
+
+.container-col-contact h2 {
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 3px;
+
+}
+
+.container-col-contact p {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    font-size: 18px;
+}
+
+.social-media {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-social i {
+    font-size: 30px;
+    padding: 8px;
+}
+
+.contact-social:hover {
+    cursor: pointer;
+    text-decoration: wavy;
+    transition: 0.6s;
+}
+
+
+.contact-social a {
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer {
+    padding: 60px;
+    background-color: #233c63;
+    color: #fff;
+}
+
+.footer-title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.footer-description {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.411);
+}
+
+.link-footer {
+    text-align: left;
+}
+
+.link-footer h1 {
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+}
+
+.link-footer p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.link-footer p:hover {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
