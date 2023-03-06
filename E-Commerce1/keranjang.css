@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #ffffff;
+    --text-color: #0f172a;
+    --main-color: #6b7280;
+    --other-color: #334155;
+    --big-font: 4.3rem;
+    --h2-font: 2.2rem;
+    --p-font: 1rem;
+}
+body{
+    color: var(--text-color);
+    background: #f0f0f0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 80px;
+    background: #e3ffe6;
+}
+.header-left a{
+    padding: 0 10px;
+    font-size: 16px;
+    color: var(--text-color);
+}
+.header-text-left{
+    border-right: 1px solid var(--text-color);
+}
+.header-icon-left{
+    margin-left: -20px;
+}
+.header_right a{
+    color: var(--text-color);
+    padding-right: 20px;
+}
+
+.logo-search{
+    width: 100%;
+    padding: 20px 90px;
+    background: var(--bg-color);
+    margin: 0 0 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-search div{
+    display: flex;
+    align-items: center;
+}
+.logo-amin{
+    display: flex;
+    align-items: center;
+}
+.logo-amin img{
+    max-width: 70px;
+}
+.logo-amin p{
+    font-size: 25px;
+    font-weight: 600;
+    border-right: 1px solid var(--text-color);
+    padding-right: 15px;
+}
+.judul-keranjang p{
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 450px;
+    height: 50px;
+    border: 3px solid var(--main-color);
+    margin-right: 20px;
+}
+.search a{
+    padding: 10px 30px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 20px;
+    border-radius: 5px;
+}
+.search a:hover{
+    opacity: .8;
+}
+
+.promo-ongkir{
+    display: flex;
+    margin: 10px 90px;
+    border: 1px solid gold;
+    padding: 8px;
+    align-items: center;
+    background-color: rgb(255, 248, 205);
+}
+.promo-ongkir i{
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.selectAll{
+    display: flex;
+    margin: 10px 90px;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-color);
+    padding: 20px;
+    border-radius: 5px;
+}
+.selectAll p{
+    padding-left: 20px;
+}
+.selectAll1{
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+}
+.selectAll2{
+    display: flex;
+}
+.selectAll2 p{
+    padding-right: 60px;
+}
+
+.cart-product{
+    background: var(--bg-color);
+    margin: 20px 90px;
+    padding: 17px;
+    align-items: center;
+    border-radius: 5px;
+}
+.cart-product input{
+    margin-left: 90px;
+}
+.cart-product a{
+    padding-left: 20px;
+    color: var(--text-color);
+}
+
+.cart-isi{
+    display: flex;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+    justify-content: space-between;
+}
+.cart-isi-kiri{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+.cart-isi-kiri img{
+    max-width: 125px;
+    padding: 0 20px 0 30px;
+    border-radius: 20px;
+}
+.cart-title-subtitle{
+    width: 200px;
+}
+.cart-title-subtitle h1{
+    font-size: 15px;
+}
+.cart-title-subtitle p{
+    font-size: 12px;
+    color: var(--main-color);
+}
+
+.cart-isi-kanan{
+    display: flex;
+    align-items: center;
+}
+.cart-harga-satuan p{
+    font-size: 18px;
+    padding-right: 105px;
+}
+.cart-kuantitas{
+    display: flex;
+    align-items: center;
+    margin-right: 103px;
+    border: 1px solid var(--text-color);
+    padding: 5px 5px;
+}
+.cart-kuantitas input{
+    width: 50px;
+    border: none;
+}
+.cart-totalHarga{
+    padding-right: 50px;
+    font-size: 18px;
+    color: #6b7280;
+}
+.cart-aksi{
+    padding-right: 60px;
+    font-size: 18px;
+    color: #6b7280;
+}
+
+.cart-discount{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--main-color);
+}
+.cart-discount i{
+    font-size: 25px;
+    padding-right: 10px;
+    color: rgb(0, 255, 170);
+    margin: 15px 15px 15px 90px;
+}
+.cart-discount p{
+    color: rgb(54, 54, 255);
+}
