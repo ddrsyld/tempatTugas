@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@layer components {
+    nav{
+        @apply fixed inset-x-0 z-10 py-8 transition duration-300
+    }
+    .active{
+        @apply border-b-2
+    }
+    .sticky-navbar{
+        @apply bg-purple-500
+    }
+    .navbar{
+        @apply flex
+    }
+}
+
+img {
+    max-width: 100%;
+}

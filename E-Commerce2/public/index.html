@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html class="m-0 p-0 scroll-smooth" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="boxicons-2.1.4/css/boxicons.min.css">
+</head>
+
+<body> 
+    <nav class="sticky-navbar flex justify-between items-center px-12 py-4 font-medium fixed text-white">
+        <img class="max-w-1" src="img/LOgo.png" alt="">
+        <ul class="hidden md:flex md:flex-row navbar uppercase">
+            <li><a class="mx-6 transition-all duration-150 ease-in-out hover:border-b-2 active" href="#home">Home</a></li>
+            <li><a class="mx-6 transition-all duration-150 ease-in-out hover:border-b-2" href="#about">About</a></li>
+            <li><a class="mx-6 transition-all duration-150 ease-in-out hover:border-b-2" href="#product">Product</a></li>
+            <li><a class="mx-6 transition-all duration-150 ease-in-out hover:border-b-2" href="#contact">Contact us</a></li>
+        </ul>
+        <div class="flex">
+            <a class="mx-6" href="#"><i class="bx bx-cart"></i></a>
+            <a class="mx-6" href="#"><i class="bx bx-search"></i></a>
+            <a class="mx-6" href="#"><i class="bx bx-heart hover:"></i></a>
+        </div>
+        <div class="flex md:hidden justify-end">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+
+    <section id="home max-w-full">
+        <div class="w-full bg-home-image justify-center items-center py-60">
+            <div class="max-w-full md:w-home-title">
+                <p class="text-purple-400 text-lg md:text-2xl font-semibold ml-20">AVENGER STORE</p>
+                <h1 class="text-3xl md:text-5xl text-white font-bold ml-20 pb-6">Selamat datang di Toko Kami</h1>
+                <a href="#" class="transition-all duration-150 ease-in-out md:font-semibold text-base md:text-xl text-white ml-20 py-2 px-4 md:py-4 md:px-8 bg-purple-500 rounded-full hover:text-purple-900 hover:bg-white">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="flex flex-col md:flex-row py-20 mx-[6rem] md:mx-20 justify-center items-center">
+            <img class="max-w-[18rem] md:max-w-aboutImg rounded-xl border-purple-500 border-solid border-2 drop-shadow-xl" src="img/product2.jpg" alt="">
+            <div class="md:ml-11">
+                <p class="text-purple-500 text-xl md:text-3xl md:pt-0 pt-8">about us</p>
+                <h1 class="font-semibold text-2xl md:text-4xl my-5">Toko Kami Aman Murah dan Terpercaya</h1>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quidem inventore atque odio molestiae beatae blanditiis. Et quae quisquam, facilis totam cum rem expedita aut ipsa laboriosam ad! Sunt id, ipsum, possimus facilis saepe eum dignissimos voluptatum magnam eaque debitis deleniti. Aspernatur quo corrupti, minima cupiditate maiores quaerat similique quae?</p>
+                <button class="transition-all duration-150 ease-in-out mt-5 text-white bg-purple-500 md:px-8 md:py-4 px-4 py-2 rounded-full flex hover:text-purple-900 hover:border-solid hover:border-purple-500 hover:bg-white hover:border-2">Belanja Sekarang <i class="bx bx-chevron-right text-2xl"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="product">
+        <div class="text-center mx-20 py-24">
+            <div class="flex justify-center items-center">
+                <hr style="width: 31rem;">
+                <h1 class="px-6 font-semibold text-xl text-purple-500">Paling Populer</h1>
+                <hr style="width: 31rem;">
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-14">
+                <div class="text-left drop-shadow-lg bg-white rounded-t-xl rounded-b-xl hover:translate-y-[-1rem] duration-300 transition-all ease-in-out">
+                    <img class="rounded-t-xl" src="img/product1.jpg" alt="">
+                    <div class="flex justify-between items-center px-5">
+                        <h1 class="py-3 text-sm md:text-base font-semibold">SPEAKER N911</h1>
+                        <div class="flex md:text-base text-xs">
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star-half text-yellow-400"></i>
+                        </div>
+                    </div>
+                    <p class="max-w-full px-5 pb-5 text-gray-500 text-xs md:text-base" style="width: 20rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, fugiat.</p>
+                    <div class="px-5 pb-5 font-bold text-lg">
+                        <h5>
+                            Rp150.900
+                        </h5>
+                    </div>
+                    <div class="flex justify-between items-center px-5 pb-3 md:pb-5 ">
+                        <a class="md:text-base text-[.5rem] border-2 border-gray-300 border-solid py-1 px-4 rounded-full transition-all duration-500 ease-in-out hover:text-purple-500 hover:border-purple-300 hover:scale-90" href="#">Beli Sekarang</a>
+                        <div class="md:text-xl text-xs">
+                            <i class="bx bx-heart"></i>
+                            <i class="bx bx-cart-add px-2"></i>
+                            <i class="bx bx-share"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-left drop-shadow-lg bg-white rounded-t-xl rounded-b-xl hover:translate-y-[-1rem] duration-300 transition-all ease-in-out">
+                    <img class="rounded-t-xl" src="img/product2.jpg" alt="">
+                    <div class="flex justify-between items-center px-5">
+                        <h1 class="py-3 text-sm md:text-base font-semibold">HEADPHONE 31</h1>
+                        <div class="flex md:text-base text-xs">
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star-half text-yellow-400"></i>
+                        </div>
+                    </div>
+                    <p class="max-w-full px-5 pb-5 text-gray-500 text-xs md:text-base" style="width: 20rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, fugiat.</p>
+                    <div class="px-5 pb-5 font-bold text-lg">
+                        <h5>
+                            Rp999.000
+                        </h5>
+                    </div>
+                    <div class="flex justify-between items-center px-5 pb-3 md:pb-5 ">
+                        <a class="md:text-base text-[.5rem] border-2 border-gray-300 border-solid py-1 px-4 rounded-full transition-all duration-500 ease-in-out hover:text-purple-500 hover:border-purple-300 hover:scale-90" href="#">Beli Sekarang</a>
+                        <div class="md:text-xl text-xs">
+                            <i class="bx bx-heart"></i>
+                            <i class="bx bx-cart-add px-2"></i>
+                            <i class="bx bx-share"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-left drop-shadow-lg bg-white rounded-t-xl rounded-b-xl hover:translate-y-[-1rem] duration-300 transition-all ease-in-out">
+                    <img class="rounded-t-xl" src="img/product3.jpg" alt="">
+                    <div class="flex justify-between items-center px-5">
+                        <h1 class="py-3 text-sm md:text-base font-semibold">TWS 112</h1>
+                        <div class="flex md:text-base text-xs">
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star-half text-yellow-400"></i>
+                        </div>
+                    </div>
+                    <p class="max-w-full px-5 pb-5 text-gray-500 text-xs md:text-base" style="width: 20rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, fugiat.</p>
+                    <div class="px-5 pb-5 font-bold text-lg">
+                        <h5>
+                            Rp499.000
+                        </h5>
+                    </div>
+                    <div class="flex justify-between items-center px-5 pb-3 md:pb-5 ">
+                        <a class="md:text-base text-[.5rem] border-2 border-gray-300 border-solid py-1 px-4 rounded-full transition-all duration-500 ease-in-out hover:text-purple-500 hover:border-purple-300 hover:scale-90" href="#">Beli Sekarang</a>
+                        <div class="md:text-xl text-xs">
+                            <i class="bx bx-heart"></i>
+                            <i class="bx bx-cart-add px-2"></i>
+                            <i class="bx bx-share"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-left drop-shadow-lg bg-white rounded-t-xl rounded-b-xl hover:translate-y-[-1rem] duration-300 transition-all ease-in-out">
+                    <img class="rounded-t-xl" src="img/product4.jpg" alt="">
+                    <div class="flex justify-between items-center px-5">
+                        <h1 class="py-3 text-sm md:text-base font-semibold">HEADSET 329</h1>
+                        <div class="flex md:text-base text-xs">
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star text-yellow-400"></i>
+                            <i class="bx bxs-star-half text-yellow-400"></i>
+                        </div>
+                    </div>
+                    <p class="max-w-full px-5 pb-5 text-gray-500 text-xs md:text-base" style="width: 20rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, fugiat.</p>
+                    <div class="px-5 pb-5 font-bold text-lg">
+                        <h5>
+                            Rp299.000
+                        </h5>
+                    </div>
+                    <div class="flex justify-between items-center px-5 pb-3 md:pb-5 ">
+                        <a class="md:text-base text-[.5rem] border-2 border-gray-300 border-solid py-1 px-4 rounded-full transition-all duration-500 ease-in-out hover:text-purple-500 hover:border-purple-300 hover:scale-90" href="#">Beli Sekarang</a>
+                        <div class="md:text-xl text-xs">
+                            <i class="bx bx-heart"></i>
+                            <i class="bx bx-cart-add px-2"></i>
+                            <i class="bx bx-share"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10">
+                <a class="text-gray-500 hover:text-black transition-all duration-200 ease-in-out" href="vall.html">View All Product</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <hr class="mx-20 mb-20">
+        <div class="mx-20 text-center">
+            <p class="text-xs text-gray-500 p-2">Special Ofers For Subscribers</p>
+            <h1 class="text-xl md:text-3xl mb-3 md:mb-6 font-semibold">Ten Percent Member Discount</h1>
+            <p class="text-xs text-gray-500 mb-16">Subscribe to our newsletters now and stay up to date with new collections, the latest lookbooks and exclusive offers.</p>
+            <div class="flex justify-center items-center">
+                <div class="border-2 border-solid border-gray-500 px-8 py-4">
+                    <input class="md:mr-40 outline-none" type="email" name="contact" id="email" placeholder="Enter Your Email.....">
+                    <button class="md:border-l-gray-600 md:border-l-2 border-solid pl-8 hover:text-purple-500 outline-none">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="mx-20 pt-60 pb-8 flex justify-center items-center">
+            <p class="text-gray-500">Copyright © 2023 Avengers Labs Inc.</p>
+        </div>
+    </footer>
+
+    <script src="js/amin.js"></script>
+</body>
+
+</html>
